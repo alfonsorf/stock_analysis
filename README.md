@@ -1,1 +1,15 @@
-# stock_analysis
+# VBA of Wall Street
+## Performed analysis on green energy stocks to determine best financial decision
+In this module I applied VBA to automate and speed up the data analisis process for a handful of stocks that Steve's parents are interested in. Using VBA and Excel I was able to create macros that scan through thousands of rows of data and shows the results Steve needs to help his parents choose the best stocks.
+## Results
+When looking at the stock returns for 2017 right away we can see that this was a good year to invest in green energy as all but one of the stocks had positive returns. And although ticker TERP had a negative return it was just over a 7% which isn't a terrible loss. As seen in the chart below, ticker DQ had the highest return of all, so if Steve's parents had invested at the start of the year, they could have almost doubled their investment! 
+# ![Stock returns 2017](https://user-images.githubusercontent.com/88118759/132078417-f1f71b2b-14c2-4dc8-b97b-f6c7819a54a1.PNG) ![Stock returns 2018](https://user-images.githubusercontent.com/88118759/132078422-323ccb0d-4974-4198-9bcb-47bae4b6dbd6.PNG)
+In contrast, 2018 was an unfavorable year to invest in green energy. The chart above shows how every company except two had negative returns and several of those were losses of over 40%. Unfortunately for Steve's parents, their investment gain would have decreased by 62.6% but overall they would have still made more than 35% along with recovering the principal. Given that ENPH and RUN both had positive returns in both years of the analysis, Steve should recommend his parents to invest in these two stocks. Although DQ had a much better 2017, these two stocks would yield a greater return for them.
+## Summary
+In general, refactoring code has many advantages and disadvantages when doing it. The main advantage being that it can help improve your code and make it perform better than the original, while being able to re-organize and make it cleaner. Another advantage is that refactoring would help detect bugs in the code and eliminate them. And lastly, like in my case, refactoring code is a learning opportunity to get familiar with the existing code as well as learn more about coding concepts. Conversely, refactoring code can be very costly and time consuming; a manager could see it as waste. And if a code is not tested well enough, refactoring it could create bugs and these would not be caught until further processing.
+
+Refactoring this stock analysis code was a bit challenging as it was more involved than the code from the modules. I struggled with the tickerIndex variable since I couldn't understand where it fit in at first and it was causing an array error when I tried to run the macro. The main pro that resulted from this challenge is that the refactored code ran much faster than the original All Stocks Analysis by more than 50%. And in conclusion, this was a good opportunity to practice formatting, for loops and arrays, and using whitespace and comments to remember what I programmed. 
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/88118759/132079921-e1846592-37a9-4304-8292-6073a7a19368.PNG)
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/88118759/132079930-8b935beb-3a07-4e6e-89aa-6019730a0a4a.PNG)
